@@ -1,0 +1,15 @@
+header{
+  border: 2px solid purple;
+}
+.sidebar{
+  border: 2px solid green;
+}
+.my_work{
+  border: 2px solid blue;
+}
+.about{
+  border: 2px solid red;
+}
+footer{
+  border: 2px solid yellow;
+}
