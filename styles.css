@@ -13,3 +13,22 @@ header{
 footer{
   border: 2px solid yellow;
 }
+img{
+  max-width: 100%;
+}
+
+
+
+.sidebar{
+  text-align: center;
+}
+.sidebar .me{
+  width: 50%;
+}
+.social_links{
+  padding: 0;
+}
+.social_links>li{
+  width: 18%;
+  display: inline-block;
+}
