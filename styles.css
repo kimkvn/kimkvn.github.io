@@ -1,4 +1,4 @@
-header{
+/*header{
   border: 2px solid purple;
 }
 .sidebar{
@@ -12,7 +12,10 @@ header{
 }
 footer{
   border: 2px solid yellow;
-}
+}*/
+
+
+
 ul{
   padding: 0;
 }
@@ -27,6 +30,7 @@ img{
 }
 .sidebar .me{
   width: 75%;
+  border-radius: 150px;
 }
 .social_links>li{
   width: 18%;
@@ -41,4 +45,9 @@ img{
 }
 .my_work a{
   white-space: normal;
+}
+article{
+  border-top: 3px solid #BEC8D3;
+  margin-top: 2ex;
+  padding-top: 3ex;
 }
