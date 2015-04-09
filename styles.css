@@ -13,6 +13,9 @@ header{
 footer{
   border: 2px solid yellow;
 }
+ul{
+  padding: 0;
+}
 img{
   max-width: 100%;
 }
@@ -25,10 +28,17 @@ img{
 .sidebar .me{
   width: 75%;
 }
-.social_links{
-  padding: 0;
-}
 .social_links>li{
   width: 18%;
   display: inline-block;
+}
+
+
+.my_work ul{
+  list-style-type: none;
+  text-align: center;
+  padding: 0 1em;
+}
+.my_work a{
+  white-space: normal;
 }
