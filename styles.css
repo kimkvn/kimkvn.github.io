@@ -14,6 +14,13 @@ footer{
   border: 2px solid yellow;
 }
 
+/*-----*/
+
+header{
+  z-index: 2;
+  max-width: 100%;
+}
+
 
 
 ul{
@@ -24,13 +31,15 @@ img{
 }
 
 
-
+.sidebar{
+  z-index: 1;
+}
 .profile{
   text-align: center;
 }
 .profile .me{
   width: 75%;
-  border-radius: 150px;
+  border-radius: 50%;
 }
 .social_links>li{
   width: 18%;
@@ -38,6 +47,9 @@ img{
 }
 
 
+.work_block{
+  z-index: 1;
+}
 .my_work ul{
   list-style-type: none;
   text-align: center;
@@ -59,12 +71,11 @@ article{
     position: fixed;
   }
   .sidebar{
-    position: fixed;
     margin-top: 20ex;
   }
   .work_block{
     margin-top: 20ex;
-    margin-left: 40ex;
+    /*margin-left: 45ex;*/
   }
 
 }
