@@ -1,7 +1,7 @@
-/*header{
+header{
   border: 2px solid purple;
 }
-.sidebar{
+.profile{
   border: 2px solid green;
 }
 .my_work{
@@ -12,7 +12,7 @@
 }
 footer{
   border: 2px solid yellow;
-}*/
+}
 
 
 
@@ -25,10 +25,10 @@ img{
 
 
 
-.sidebar{
+.profile{
   text-align: center;
 }
-.sidebar .me{
+.profile .me{
   width: 75%;
   border-radius: 150px;
 }
@@ -50,4 +50,21 @@ article{
   border-top: 3px solid #BEC8D3;
   margin-top: 2ex;
   padding-top: 3ex;
+}
+
+
+/** media queries **/
+@media (min-width: 992px){
+  header{
+    position: fixed;
+  }
+  .sidebar{
+    position: fixed;
+    margin-top: 20ex;
+  }
+  .work_block{
+    margin-top: 20ex;
+    margin-left: 40ex;
+  }
+
 }
