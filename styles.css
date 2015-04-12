@@ -41,9 +41,12 @@ img{
   width: 75%;
   border-radius: 50%;
 }
-.social_links>li{
-  width: 18%;
+.social_links li{
+  width: 20%;
   display: inline-block;
+}
+.social_links img{
+  max-width: 100%;
 }
 
 
@@ -66,16 +69,20 @@ article{
 
 
 /** media queries **/
-@media (min-width: 992px){
-  header{
-    position: fixed;
-  }
-  .sidebar{
-    margin-top: 20ex;
-  }
-  .work_block{
-    margin-top: 20ex;
-    /*margin-left: 45ex;*/
-  }
 
+@media (min-width: 481px){
+  .profile .me{
+    width: 50%;
+  }
+  .social_links li{
+    width: 15%;
+  }
+}
+@media (min-width: 768px){
+  .profile .me{
+    width: 25%;
+  }
+  .social_links li{
+    width: 5%;
+  }
 }
