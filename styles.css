@@ -29,6 +29,7 @@ header{
   background-color: #0e4378;
   color: white;
   padding: 2ex;
+  text-align: center;
 }
 
 
@@ -81,7 +82,7 @@ footer{
   background-color: #0e4378;
   color: white;
   margin-top: 5ex;
-  padding: 5ex 0;
+  padding: 5ex 2ex;
 }
 
 /** media queries **/
