@@ -19,7 +19,7 @@ footer{
   font-family: 'Aleo-Regular';
   src: url('aleo-regular-webfont.ttf') format('truetype');
 }
-h1, h2, h3, h4, h5, p, a{
+h1, h2, h3, h4, h5, p, a, address{
   font-family: 'Aleo-Regular';
 }
 
@@ -45,7 +45,7 @@ img{
 
 .profile{
   text-align: center;
-  padding: 5ex 0;
+  padding: 10ex 0;
 }
 .profile .me{
   width: 75%;
@@ -69,7 +69,8 @@ img{
   white-space: normal;
 }
 article{
-  border-top: 3px solid #BEC8D3;
+  border: 3px solid #BEC8D3;
+  border-radius: 5%;
   margin-top: 2ex;
   padding-top: 3ex;
   padding-right: 5ex;
@@ -77,7 +78,7 @@ article{
 }
 
 .about{
-  margin-top: 5ex;
+  margin: 5% 10% 0;
 }
 
 footer{
@@ -85,6 +86,9 @@ footer{
   color: white;
   margin-top: 5ex;
   padding: 5ex 2ex;
+}
+footer h4{
+  color: white;
 }
 
 /** media queries **/
