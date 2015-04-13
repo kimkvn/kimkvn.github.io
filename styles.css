@@ -19,8 +19,11 @@ footer{
   font-family: 'Aleo-Regular';
   src: url('aleo-regular-webfont.ttf') format('truetype');
 }
-h1, h2, h3, h4, h5, p, a, address{
+h1, h2, h3, h4, h5, p, a, small{
   font-family: 'Aleo-Regular';
+}
+h2{
+  text-align: center;
 }
 
 
@@ -54,12 +57,15 @@ img{
 .social_links li{
   width: 20%;
   display: inline-block;
+  margin: 5ex 0.5em;
 }
 .social_links img{
   max-width: 100%;
 }
 
-
+.my_work h2{
+  text-align: center;
+}
 .my_work ul{
   list-style-type: none;
   text-align: center;
@@ -86,10 +92,15 @@ footer{
   color: white;
   margin-top: 5ex;
   padding: 5ex 2ex;
+  text-align: center;
 }
-footer h4{
+footer h3{
   color: white;
 }
+footer .social_links li{
+  width: 10%;
+}
+
 
 /** media queries **/
 
@@ -106,6 +117,9 @@ footer h4{
     width: 25%;
   }
   .social_links li{
+    width: 5%;
+  }
+  footer .social_links li{
     width: 5%;
   }
 }
