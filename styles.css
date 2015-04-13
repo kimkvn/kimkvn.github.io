@@ -36,6 +36,7 @@ img{
 }
 .profile{
   text-align: center;
+  padding: 5ex 0;
 }
 .profile .me{
   width: 75%;
@@ -67,6 +68,14 @@ article{
   padding-top: 3ex;
 }
 
+.about{
+  margin-top: 5ex;
+}
+
+footer{
+  margin-top: 5ex;
+  padding: 5ex 0;
+}
 
 /** media queries **/
 
