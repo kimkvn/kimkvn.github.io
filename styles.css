@@ -1,4 +1,4 @@
-header{
+/*header{
   border: 2px solid purple;
 }
 .profile{
@@ -12,13 +12,15 @@ header{
 }
 footer{
   border: 2px solid yellow;
-}
+}*/
 
 /*-----*/
 
 header{
-  z-index: 2;
   max-width: 100%;
+  background-color: #0e4378;
+  color: white;
+  padding: 2ex;
 }
 
 
@@ -31,9 +33,7 @@ img{
 }
 
 
-.sidebar{
-  z-index: 1;
-}
+
 .profile{
   text-align: center;
   padding: 5ex 0;
@@ -51,9 +51,6 @@ img{
 }
 
 
-.work_block{
-  z-index: 1;
-}
 .my_work ul{
   list-style-type: none;
   text-align: center;
@@ -73,6 +70,8 @@ article{
 }
 
 footer{
+  background-color: #0e4378;
+  color: white;
   margin-top: 5ex;
   padding: 5ex 0;
 }
