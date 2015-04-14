@@ -12,15 +12,16 @@ h1, h2, h3, {
   font-family: 'Open-Sans', sans-serif;
   font-weight: 700;
 }
+h2{
+  text-align: center;
+}
 h4, a, small{
   font-family: 'Aleo-Regular', Georgia;
 }
 p{
   font-family: 'Aleo-Light', Georgia;
 }
-h2{
-  text-align: center;
-}
+
 
 
 
@@ -83,6 +84,16 @@ article{
   padding-right: 5ex;
   padding-left: 5ex;
 }
+article .glyphicon{
+  color: white;
+  background-color: #0b3763;
+  border: 2px solid #0b3763;
+  border-radius: 50%;
+  padding: 3%;
+}
+
+
+/*----About Me----*/
 
 .about{
   margin: 5% 10% 0;
