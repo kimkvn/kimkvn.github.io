@@ -1,18 +1,30 @@
 @font-face{
   font-family: 'Aleo-Regular';
-  src: url('aleo-regular-webfont.ttf') format('truetype');
+  src: url('aleo-regular-webfont.woff2') format('woff2');
+  src: url('aleo-regular-webfont.woff') format('woff');
+}
+@font-face{
+  font-family: 'Aleo-Light';
+  src: url('aleo-light-webfont.woff') format('woff');
+  src: url('aleo-light-webfont.woff2') format('woff2');
 }
 h1, h2, h3, {
   font-family: 'Open-Sans', sans-serif;
-
+  font-weight: 700;
 }
-h4, p, a, small{
-  font-family: 'Aleo-Regular';
+h4, a, small{
+  font-family: 'Aleo-Regular', Georgia;
+}
+p{
+  font-family: 'Aleo-Light', Georgia;
 }
 h2{
   text-align: center;
 }
 
+
+
+/*----Header----*/
 
 header{
   max-width: 100%;
@@ -25,8 +37,6 @@ header{
   font-size: 40%;
   vertical-align: middle;
 }
-
-
 ul{
   padding: 0;
 }
@@ -35,6 +45,7 @@ img{
 }
 
 
+/*----Profile Block----*/
 
 .profile{
   text-align: center;
@@ -52,6 +63,9 @@ img{
 .social_links img{
   max-width: 100%;
 }
+
+
+/*----Work Examples Block----*/
 
 .my_work ul{
   list-style-type: none;
@@ -74,6 +88,9 @@ article{
   margin: 5% 10% 0;
 }
 
+
+/*----Footer----*/
+
 footer{
   background-color: #0e4378;
   color: white;
@@ -87,6 +104,7 @@ footer h3{
 footer .social_links li{
   width: 10%;
 }
+
 
 /** media queries **/
 
