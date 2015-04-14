@@ -1,42 +1,42 @@
-/*header{
-  border: 2px solid purple;
-}
-.profile{
-  border: 2px solid green;
-}
-.my_work{
-  border: 2px solid blue;
-}
-.about{
-  border: 2px solid red;
-}
-footer{
-  border: 2px solid yellow;
-}*/
-
-/*-----*/
 @font-face{
   font-family: 'Aleo-Regular';
-  src: url('aleo-regular-webfont.ttf') format('truetype');
+  src: url('aleo-regular-webfont.woff2') format('woff2');
+  src: url('aleo-regular-webfont.woff') format('woff');
 }
-h1, h2, h3, h4, h5, p, a, small{
-  font-family: 'Aleo-Regular';
+@font-face{
+  font-family: 'Aleo-Light';
+  src: url('aleo-light-webfont.woff') format('woff');
+  src: url('aleo-light-webfont.woff2') format('woff2');
+}
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
 }
 h2{
   text-align: center;
 }
-
-
-header{
-  max-width: 100%;
-  background-color: #0e4378;
-  color: white;
-  padding: 2ex;
-  text-align: center;
+h4, small{
+  font-family: 'Aleo-Regular', Georgia;
+}
+p{
+  font-family: 'Aleo-Light', Georgia;
 }
 
 
 
+
+/*----Header----*/
+
+header{
+  max-width: 100%;
+  background-color: #0b3763;
+  color: white;
+  padding: 2ex;
+  text-align: center;
+}
+.fa{
+  font-size: 40%;
+  vertical-align: middle;
+}
 ul{
   padding: 0;
 }
@@ -45,6 +45,7 @@ img{
 }
 
 
+/*----Profile Block----*/
 
 .profile{
   text-align: center;
@@ -63,9 +64,9 @@ img{
   max-width: 100%;
 }
 
-.my_work h2{
-  text-align: center;
-}
+
+/*----Work Examples Block----*/
+
 .my_work ul{
   list-style-type: none;
   text-align: center;
@@ -82,13 +83,30 @@ article{
   padding-right: 5ex;
   padding-left: 5ex;
 }
+article a{
+  font-family: 'Open Sans', sans-serif;
+  color: #0b3763;
+}
+article .glyphicon{
+  color: white;
+  background-color: #0b3763;
+  border: 2px solid #0b3763;
+  border-radius: 50%;
+  padding: 0.5ex;
+}
+
+
+/*----About Me----*/
 
 .about{
   margin: 5% 10% 0;
 }
 
+
+/*----Footer----*/
+
 footer{
-  background-color: #0e4378;
+  background-color: #0b3763;
   color: white;
   margin-top: 5ex;
   padding: 5ex 2ex;
