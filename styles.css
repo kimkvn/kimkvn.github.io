@@ -68,6 +68,7 @@ img{
 /*----Work Examples Block----*/
 
 .my_work ul{
+  margin: 3ex 0;
   list-style-type: none;
   text-align: center;
   padding: 0 1em;
