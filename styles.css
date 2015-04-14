@@ -1,25 +1,12 @@
-/*header{
-  border: 2px solid purple;
-}
-.profile{
-  border: 2px solid green;
-}
-.my_work{
-  border: 2px solid blue;
-}
-.about{
-  border: 2px solid red;
-}
-footer{
-  border: 2px solid yellow;
-}*/
-
-/*-----*/
 @font-face{
   font-family: 'Aleo-Regular';
   src: url('aleo-regular-webfont.ttf') format('truetype');
 }
-h1, h2, h3, h4, h5, p, a, small{
+h1, h2, h3, {
+  font-family: 'Open-Sans', sans-serif;
+
+}
+h4, p, a, small{
   font-family: 'Aleo-Regular';
 }
 h2{
@@ -34,7 +21,10 @@ header{
   padding: 2ex;
   text-align: center;
 }
-
+.fa{
+  font-size: 40%;
+  vertical-align: middle;
+}
 
 
 ul{
@@ -63,9 +53,6 @@ img{
   max-width: 100%;
 }
 
-.my_work h2{
-  text-align: center;
-}
 .my_work ul{
   list-style-type: none;
   text-align: center;
@@ -100,7 +87,6 @@ footer h3{
 footer .social_links li{
   width: 10%;
 }
-
 
 /** media queries **/
 
