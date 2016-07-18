@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'Aleo-Regular';
+  src: url("aleo-regular-webfont.woff2") format("woff2");
+  src: url("aleo-regular-webfont.woff") format("woff"); }
+@font-face {
+  font-family: 'Aleo-Light';
+  src: url("aleo-light-webfont.woff") format("woff");
+  src: url("aleo-light-webfont.woff2") format("woff2"); }
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif; }
+
+h2 {
+  text-align: center; }
+
+h4, small {
+  font-family: 'Aleo-Regular', Georgia; }
+
+p {
+  font-family: 'Aleo-Light', Georgia; }
+
+/*----Header----*/
+header {
+  max-width: 100%;
+  background-color: #0b3763;
+  color: white;
+  padding: 2ex;
+  text-align: center; }
+
+.fa {
+  font-size: 40%;
+  vertical-align: middle; }
+
+ul {
+  padding: 0; }
+
+img {
+  max-width: 100%; }
+
+/*----Profile Block----*/
+.profile {
+  text-align: center;
+  padding: 10ex 0; }
+
+.profile .me {
+  width: 75%;
+  border-radius: 50%; }
+
+.social_links li {
+  width: 20%;
+  display: inline-block;
+  margin: 5ex 0.5em; }
+
+.social_links img {
+  max-width: 100%; }
+
+/*----Work Examples Block----*/
+.my_work ul {
+  margin: 3ex 0;
+  list-style-type: none;
+  text-align: center;
+  padding: 0 1em; }
+
+.my_work a {
+  white-space: normal; }
+
+article {
+  border: 3px solid #BEC8D3;
+  border-radius: 5%;
+  margin-top: 2ex;
+  padding-top: 3ex;
+  padding-right: 5ex;
+  padding-left: 5ex; }
+
+article a {
+  font-family: 'Open Sans', sans-serif;
+  color: #0b3763; }
+
+article .glyphicon {
+  color: white;
+  background-color: #0b3763;
+  border: 2px solid #0b3763;
+  border-radius: 50%;
+  padding: 0.5ex; }
+
+/*----About Me----*/
+.about {
+  margin: 5% 10% 0; }
+
+/*----Footer----*/
+footer {
+  background-color: #0b3763;
+  color: white;
+  margin-top: 5ex;
+  padding: 5ex 2ex;
+  text-align: center; }
+
+footer h3 {
+  color: white; }
+
+footer .social_links li {
+  width: 10%; }
+
+/** media queries **/
+@media (min-width: 481px) {
+  .profile .me {
+    width: 50%; }
+
+  .social_links li {
+    width: 15%; } }
+@media (min-width: 768px) {
+  .profile .me {
+    width: 25%; }
+
+  .social_links li {
+    width: 5%; }
+
+  footer .social_links li {
+    width: 5%; } }
+
+/*# sourceMappingURL=styles.css.map */
