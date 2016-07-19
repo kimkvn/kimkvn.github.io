@@ -10,7 +10,8 @@ h1, h2, h3 {
   font-family: 'Open Sans', sans-serif; }
 
 h2 {
-  text-align: center; }
+  text-align: center;
+  color: #fff; }
 
 h4, small {
   font-family: 'Aleo-Regular', Georgia; }
@@ -21,7 +22,7 @@ p {
 /*----Header----*/
 header {
   max-width: 100%;
-  background-color: #0b3763;
+  background-color: #00275E;
   color: white;
   padding: 2ex;
   text-align: center; }
@@ -37,13 +38,17 @@ img {
   max-width: 100%; }
 
 /*----Profile Block----*/
+div.sidebar {
+  background: #6D98AB; }
+
 .profile {
   text-align: center;
   padding: 10ex 0; }
-
-.profile .me {
-  width: 75%;
-  border-radius: 50%; }
+  .profile .me {
+    width: 75%;
+    border-radius: 50%; }
+  .profile a {
+    color: #fff; }
 
 .social_links li {
   width: 20%;
@@ -54,48 +59,49 @@ img {
   max-width: 100%; }
 
 /*----Work Examples Block----*/
-.work_block .project article {
-  border: 3px solid #BEC8D3;
-  min-height: 560px;
-  border-radius: 5%;
-  margin-top: 2ex;
-  padding-top: 3ex;
-  padding-right: 5ex;
-  padding-left: 5ex; }
-  .work_block .project article a {
-    font-family: 'Open Sans', sans-serif;
-    color: #0b3763; }
-  .work_block .project article ul.work_buttons {
-    margin: 3ex 0;
-    list-style-type: none;
-    padding: 0; }
-    .work_block .project article ul.work_buttons li {
-      display: inline;
-      margin-right: 1em; }
-    .work_block .project article ul.work_buttons .spLinks {
-      display: inline-block; }
-      .work_block .project article ul.work_buttons .spLinks li {
-        display: block;
-        margin-bottom: 1ex; }
-  .work_block .project article .glyphicon {
-    color: #00275E;
-    border-radius: 50%; }
-  .work_block .project article section.slideShow {
-    position: relative;
-    height: 280px;
-    overflow: hidden; }
-  .work_block .project article div.imgWrap {
-    margin: 0;
-    position: absolute;
-    opacity: 0; }
-    .work_block .project article div.imgWrap:nth-child(1) {
-      animation: xfade 16s 12s infinite; }
-    .work_block .project article div.imgWrap:nth-child(2) {
-      animation: xfade 16s 8s infinite; }
-    .work_block .project article div.imgWrap:nth-child(3) {
-      animation: xfade 16s 4s infinite; }
-    .work_block .project article div.imgWrap:nth-child(4) {
-      animation: xfade 16s 0s infinite; }
+.work_block {
+  background: #FEB729; }
+  .work_block .project article {
+    background: #fff;
+    min-height: 560px;
+    border-radius: 5%;
+    margin-top: 2ex;
+    padding-top: 3ex;
+    padding-right: 5ex;
+    padding-left: 5ex; }
+    .work_block .project article a {
+      font-family: 'Open Sans', sans-serif;
+      color: #00275E; }
+    .work_block .project article ul.work_buttons {
+      margin: 3ex 0;
+      list-style-type: none;
+      padding: 0; }
+      .work_block .project article ul.work_buttons li {
+        display: inline;
+        margin-right: 1em; }
+      .work_block .project article ul.work_buttons .spLinks {
+        display: inline-block; }
+        .work_block .project article ul.work_buttons .spLinks li {
+          display: block;
+          margin-bottom: 1ex; }
+    .work_block .project article .glyphicon {
+      color: #00275E; }
+    .work_block .project article section.slideShow {
+      position: relative;
+      height: 280px;
+      overflow: hidden; }
+    .work_block .project article div.imgWrap {
+      margin: 0;
+      position: absolute;
+      opacity: 0; }
+      .work_block .project article div.imgWrap:nth-child(1) {
+        animation: xfade 16s 12s infinite; }
+      .work_block .project article div.imgWrap:nth-child(2) {
+        animation: xfade 16s 8s infinite; }
+      .work_block .project article div.imgWrap:nth-child(3) {
+        animation: xfade 16s 4s infinite; }
+      .work_block .project article div.imgWrap:nth-child(4) {
+        animation: xfade 16s 0s infinite; }
 @keyFrames xfade {
   0% {
     opacity: 1; }
@@ -112,13 +118,19 @@ img {
 
 /*----About Me----*/
 .about {
-  margin: 5% 10% 0; }
+  background: #6D98AB; }
+  .about .aboutWrap {
+    max-width: 70em;
+    margin: 0 auto;
+    padding: 0 1em 1em 1em;
+    color: #fff; }
+    .about .aboutWrap a {
+      color: #FEB729; }
 
 /*----Footer----*/
 footer {
-  background-color: #0b3763;
+  background-color: #00275E;
   color: white;
-  margin-top: 5ex;
   padding: 5ex 2ex;
   text-align: center; }
 

@@ -8,11 +8,19 @@
   src: url('../fonts/aleo/light/aleo-light-webfont.woff') format('woff');
   src: url('../fonts/aleo/light/aleo-light-webfont.woff2') format('woff2');
 }
+
+$lightBlue: #6D98AB;
+$darkBlue: #00275E;
+$yellow: #FEB729;
+
+
+
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 h2{
   text-align: center;
+  color: #fff;
 }
 h4, small{
   font-family: 'Aleo-Regular', Georgia;
@@ -28,7 +36,7 @@ p{
 
 header{
   max-width: 100%;
-  background-color: #0b3763;
+  background-color: $darkBlue;
   color: white;
   padding: 2ex;
   text-align: center;
@@ -46,15 +54,21 @@ img{
 
 
 /*----Profile Block----*/
-
+div.sidebar{
+  background: $lightBlue;
+}
 .profile{
   text-align: center;
   padding: 10ex 0;
+  .me{
+    width: 75%;
+    border-radius: 50%;
+  }
+  a{
+    color: #fff;
+  }
 }
-.profile .me{
-  width: 75%;
-  border-radius: 50%;
-}
+
 .social_links li{
   width: 20%;
   display: inline-block;
@@ -67,9 +81,10 @@ img{
 
 /*----Work Examples Block----*/
 .work_block{
+  background: $yellow;
   .project{
     article{
-      border: 3px solid #BEC8D3;
+      background: #fff;
       min-height: 560px;
       border-radius: 5%;
       margin-top: 2ex;
@@ -79,7 +94,7 @@ img{
 
       a{
         font-family: 'Open Sans', sans-serif;
-        color: #0b3763;
+        color: $darkBlue;
       }
 
       ul.work_buttons{
@@ -103,11 +118,7 @@ img{
       }
 
       .glyphicon{
-        color: #00275E;
-        //background-color: #0b3763;
-        //border: 2px solid #0b3763;
-        border-radius: 50%;
-        //padding: 0.5ex;
+        color: $darkBlue;
       }
       section.slideShow{
         position: relative;
@@ -149,11 +160,8 @@ img{
             opacity: 1;
           }
         }
-
       }
-
     }
-
   }
 }
 
@@ -169,16 +177,24 @@ img{
 /*----About Me----*/
 
 .about{
-  margin: 5% 10% 0;
+  background: $lightBlue;
+  .aboutWrap{
+    max-width: 70em;
+    margin: 0 auto;
+    padding: 0 1em 1em 1em;
+    color: #fff;
+    a{
+      color: $yellow;
+    }
+  }
 }
 
 
 /*----Footer----*/
 
 footer{
-  background-color: #0b3763;
+  background-color: $darkBlue;
   color: white;
-  margin-top: 5ex;
   padding: 5ex 2ex;
   text-align: center;
 }
