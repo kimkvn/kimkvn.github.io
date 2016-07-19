@@ -22,20 +22,22 @@ p {
 a:hover {
   text-decoration: none; }
 
-.lineHover:before, .profile a.email:before, .work_block .project article ul.work_buttons li a:before {
-  content: "";
-  position: absolute;
-  background-color: #00275E;
-  width: 100%;
-  height: 2px;
-  bottom: -2px;
-  left: 0;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: 0.3s; }
-.lineHover:hover:before, .profile a.email:hover:before, .work_block .project article ul.work_buttons li a:hover:before {
-  visibility: visible;
-  transform: scaleX(1); }
+.lineHover, a.email, .work_block .project article ul.work_buttons li a {
+  position: relative; }
+  .lineHover:before, a.email:before, .work_block .project article ul.work_buttons li a:before {
+    content: "";
+    position: absolute;
+    background-color: #00275E;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: 0.3s; }
+  .lineHover:hover:before, a.email:hover:before, .work_block .project article ul.work_buttons li a:hover:before {
+    visibility: visible;
+    transform: scaleX(1); }
 
 /*----Header----*/
 header {
@@ -55,6 +57,12 @@ ul {
 img {
   max-width: 100%; }
 
+a.email {
+  color: #fff;
+  position: relative; }
+  a.email:before {
+    background-color: #fff; }
+
 /*----Profile Block----*/
 div.sidebar {
   background: #6D98AB; }
@@ -65,11 +73,6 @@ div.sidebar {
   .profile .me {
     width: 75%;
     border-radius: 50%; }
-  .profile a.email {
-    color: #fff;
-    position: relative; }
-    .profile a.email:before {
-      background-color: #fff; }
 
 .social_links li {
   width: 20%;

@@ -33,6 +33,7 @@ a:hover{
 }
 
 .lineHover{
+  position: relative;
   &:before{
     content: "";
     position: absolute;
@@ -71,7 +72,14 @@ img{
   max-width: 100%;
 }
 
-
+a.email{
+  color: #fff;
+  position: relative;
+  @extend .lineHover;
+  &:before{
+    background-color: #fff;
+  }
+}
 /*----Profile Block----*/
 div.sidebar{
   background: $lightBlue;
@@ -83,14 +91,7 @@ div.sidebar{
     width: 75%;
     border-radius: 50%;
   }
-  a.email{
-    color: #fff;
-    position: relative;
-    @extend .lineHover;
-    &:before{
-      background-color: #fff;
-    }
-  }
+
 
 }
 
