@@ -56,7 +56,7 @@ img {
 /*----Work Examples Block----*/
 .work_block .project article {
   border: 3px solid #BEC8D3;
-  min-height: 70ex;
+  min-height: 560px;
   border-radius: 5%;
   margin-top: 2ex;
   padding-top: 3ex;
@@ -82,7 +82,7 @@ img {
     border-radius: 50%; }
   .work_block .project article section.slideShow {
     position: relative;
-    height: 30ex;
+    height: 280px;
     overflow: hidden; }
   .work_block .project article div.imgWrap {
     margin: 0;
