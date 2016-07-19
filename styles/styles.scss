@@ -70,7 +70,7 @@ img{
   .project{
     article{
       border: 3px solid #BEC8D3;
-      min-height: 75ex;
+      min-height: 70ex;
       border-radius: 5%;
       margin-top: 2ex;
       padding-top: 3ex;
@@ -103,15 +103,16 @@ img{
       }
 
       .glyphicon{
-        color: white;
-        background-color: #0b3763;
-        border: 2px solid #0b3763;
+        color: #00275E;
+        //background-color: #0b3763;
+        //border: 2px solid #0b3763;
         border-radius: 50%;
-        padding: 0.5ex;
+        //padding: 0.5ex;
       }
       section.slideShow{
         position: relative;
-        height: 232px;
+        height: 30ex;
+        overflow: hidden;
       }
       div.imgWrap{
         margin: 0;
