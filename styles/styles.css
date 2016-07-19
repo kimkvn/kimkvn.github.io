@@ -78,7 +78,30 @@ img {
     border: 2px solid #0b3763;
     border-radius: 50%;
     padding: 0.5ex; }
-
+  .work_block .project article section.slideShow {
+    position: relative;
+    height: 232px; }
+  .work_block .project article div.imgWrap {
+    margin: 0;
+    position: absolute;
+    opacity: 0; }
+    .work_block .project article div.imgWrap:nth-child(1) {
+      animation: xfade 9s 6s infinite; }
+    .work_block .project article div.imgWrap:nth-child(2) {
+      animation: xfade 9s 3s infinite; }
+    .work_block .project article div.imgWrap:nth-child(3) {
+      animation: xfade 9s 0s infinite; }
+@keyFrames xfade {
+  0% {
+    opacity: 1; }
+  10.5% {
+    opacity: 1; }
+  33.3333% {
+    opacity: 0; }
+  98% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 .my_work a {
   white-space: normal; }
 
