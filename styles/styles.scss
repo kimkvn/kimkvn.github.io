@@ -70,7 +70,7 @@ img{
   .project{
     article{
       border: 3px solid #BEC8D3;
-      min-height: 80ex;
+      min-height: 75ex;
       border-radius: 5%;
       margin-top: 2ex;
       padding-top: 3ex;
@@ -83,7 +83,12 @@ img{
       }
 
       ul.work_buttons{
+        margin: 3ex 0;
+        list-style-type: none;
+        padding: 0 ;
         li{
+          display: inline;
+          margin-right: 1em;
           a{
             //padding-left: 2em;
           }
@@ -103,10 +108,7 @@ img{
 }
 
 .my_work ul{
-  margin: 3ex 0;
-  list-style-type: none;
-  text-align: center;
-  padding: 0 1em;
+
 }
 .my_work a{
   white-space: normal;
