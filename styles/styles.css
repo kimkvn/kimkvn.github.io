@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Aleo-Regular';
-  src: url("aleo-regular-webfont.woff2") format("woff2");
-  src: url("aleo-regular-webfont.woff") format("woff"); }
+  src: url("../fonts/aleo/regular/aleo-regular-webfont.woff2") format("woff2");
+  src: url("../fonts/aleo/regular/aleo-regular-webfont.woff") format("woff"); }
 @font-face {
   font-family: 'Aleo-Light';
-  src: url("aleo-light-webfont.woff") format("woff");
-  src: url("aleo-light-webfont.woff2") format("woff2"); }
+  src: url("../fonts/aleo/light/aleo-light-webfont.woff") format("woff");
+  src: url("../fonts/aleo/light/aleo-light-webfont.woff2") format("woff2"); }
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif; }
 
