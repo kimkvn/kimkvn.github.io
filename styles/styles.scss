@@ -1,3 +1,5 @@
+/*--  constants  --*/
+
 @font-face{
   font-family: 'Aleo-Regular';
   src: url('../fonts/aleo/regular/aleo-regular-webfont.woff2') format('woff2');
@@ -13,7 +15,7 @@ $lightBlue: #6D98AB;
 $darkBlue: #00275E;
 $yellow: #FEB729;
 
-
+/*-- Global things --*/
 
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
@@ -28,8 +30,19 @@ h4, small{
 p{
   font-family: 'Aleo-Light', Georgia;
 }
+ul{
+  padding: 0;
+}
+img{
+  max-width: 100%;
+}
+.fa{
+  font-size: 40%;
+  vertical-align: middle;
+}
 a:hover{
   text-decoration: none;
+  cursor: pointer;
 }
 
 .lineHover{
@@ -52,6 +65,15 @@ a:hover{
   }
 }
 
+a.email{
+  color: #fff;
+  position: relative;
+  @extend .lineHover;
+  &:before{
+    background-color: #fff;
+  }
+}
+
 /*----Header----*/
 
 header{
@@ -61,25 +83,10 @@ header{
   padding: 2ex;
   text-align: center;
 }
-.fa{
-  font-size: 40%;
-  vertical-align: middle;
-}
-ul{
-  padding: 0;
-}
-img{
-  max-width: 100%;
-}
 
-a.email{
-  color: #fff;
-  position: relative;
-  @extend .lineHover;
-  &:before{
-    background-color: #fff;
-  }
-}
+
+
+
 /*----Profile Block----*/
 div.sidebar{
   background: $lightBlue;
@@ -111,7 +118,7 @@ div.sidebar{
   .project{
     article{
       background: #fff;
-      min-height: 560px;
+      min-height: 490px;
       border-radius: 5%;
       margin-top: 2ex;
       padding-top: 3ex;
@@ -126,7 +133,7 @@ div.sidebar{
       ul.work_buttons{
         margin: 3ex 0;
         list-style-type: none;
-        padding: 0 ;
+        padding: 0 0 1em 0;
         li{
           display: inline;
           margin-right: 1em;
@@ -151,7 +158,7 @@ div.sidebar{
       }
       section.slideShow{
         position: relative;
-        height: 280px;
+        height: 180px;
         overflow: hidden;
       }
       div.imgWrap{
@@ -250,6 +257,12 @@ footer .social_links li{
   .social_links li{
     width: 15%;
   }
+  .work_block .project article{
+    min-height: 540px;
+    section.slideShow{
+      height: 280px !important;
+    }
+  }
 }
 @media (min-width: 768px){
   .profile .me{
@@ -260,5 +273,10 @@ footer .social_links li{
   }
   footer .social_links li{
     width: 5%;
+  }
+}
+@media (min-width: 992px){
+  .work_block .project article{
+    min-height: 510px;
   }
 }

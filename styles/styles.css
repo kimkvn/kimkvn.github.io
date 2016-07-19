@@ -1,3 +1,4 @@
+/*--  constants  --*/
 @font-face {
   font-family: 'Aleo-Regular';
   src: url("../fonts/aleo/regular/aleo-regular-webfont.woff2") format("woff2");
@@ -6,6 +7,7 @@
   font-family: 'Aleo-Light';
   src: url("../fonts/aleo/light/aleo-light-webfont.woff") format("woff");
   src: url("../fonts/aleo/light/aleo-light-webfont.woff2") format("woff2"); }
+/*-- Global things --*/
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif; }
 
@@ -19,8 +21,19 @@ h4, small {
 p {
   font-family: 'Aleo-Light', Georgia; }
 
+ul {
+  padding: 0; }
+
+img {
+  max-width: 100%; }
+
+.fa {
+  font-size: 40%;
+  vertical-align: middle; }
+
 a:hover {
-  text-decoration: none; }
+  text-decoration: none;
+  cursor: pointer; }
 
 .lineHover, a.email, .work_block .project article ul.work_buttons li a {
   position: relative; }
@@ -39,6 +52,12 @@ a:hover {
     visibility: visible;
     transform: scaleX(1); }
 
+a.email {
+  color: #fff;
+  position: relative; }
+  a.email:before {
+    background-color: #fff; }
+
 /*----Header----*/
 header {
   max-width: 100%;
@@ -46,22 +65,6 @@ header {
   color: white;
   padding: 2ex;
   text-align: center; }
-
-.fa {
-  font-size: 40%;
-  vertical-align: middle; }
-
-ul {
-  padding: 0; }
-
-img {
-  max-width: 100%; }
-
-a.email {
-  color: #fff;
-  position: relative; }
-  a.email:before {
-    background-color: #fff; }
 
 /*----Profile Block----*/
 div.sidebar {
@@ -87,7 +90,7 @@ div.sidebar {
   background: #FEB729; }
   .work_block .project article {
     background: #fff;
-    min-height: 560px;
+    min-height: 490px;
     border-radius: 5%;
     margin-top: 2ex;
     padding-top: 3ex;
@@ -98,7 +101,7 @@ div.sidebar {
     .work_block .project article ul.work_buttons {
       margin: 3ex 0;
       list-style-type: none;
-      padding: 0; }
+      padding: 0 0 1em 0; }
       .work_block .project article ul.work_buttons li {
         display: inline;
         margin-right: 1em; }
@@ -114,7 +117,7 @@ div.sidebar {
       color: #00275E; }
     .work_block .project article section.slideShow {
       position: relative;
-      height: 280px;
+      height: 180px;
       overflow: hidden; }
     .work_block .project article div.imgWrap {
       margin: 0;
@@ -176,7 +179,12 @@ footer .social_links li {
     width: 50%; }
 
   .social_links li {
-    width: 15%; } }
+    width: 15%; }
+
+  .work_block .project article {
+    min-height: 540px; }
+    .work_block .project article section.slideShow {
+      height: 280px !important; } }
 @media (min-width: 768px) {
   .profile .me {
     width: 25%; }
@@ -186,5 +194,8 @@ footer .social_links li {
 
   footer .social_links li {
     width: 5%; } }
+@media (min-width: 992px) {
+  .work_block .project article {
+    min-height: 510px; } }
 
 /*# sourceMappingURL=styles.css.map */
