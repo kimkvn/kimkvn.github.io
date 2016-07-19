@@ -76,17 +76,27 @@ img{
       padding-top: 3ex;
       padding-right: 5ex;
       padding-left: 5ex;
-    }
-    article a{
-      font-family: 'Open Sans', sans-serif;
-      color: #0b3763;
-    }
-    article .glyphicon{
-      color: white;
-      background-color: #0b3763;
-      border: 2px solid #0b3763;
-      border-radius: 50%;
-      padding: 0.5ex;
+
+      a{
+        font-family: 'Open Sans', sans-serif;
+        color: #0b3763;
+      }
+
+      ul.work_buttons{
+        li{
+          a{
+            //padding-left: 2em;
+          }
+        }
+      }
+
+      .glyphicon{
+        color: white;
+        background-color: #0b3763;
+        border: 2px solid #0b3763;
+        border-radius: 50%;
+        padding: 0.5ex;
+      }
     }
 
   }

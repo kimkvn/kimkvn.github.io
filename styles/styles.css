@@ -62,15 +62,15 @@ img {
   padding-top: 3ex;
   padding-right: 5ex;
   padding-left: 5ex; }
-.work_block .project article a {
-  font-family: 'Open Sans', sans-serif;
-  color: #0b3763; }
-.work_block .project article .glyphicon {
-  color: white;
-  background-color: #0b3763;
-  border: 2px solid #0b3763;
-  border-radius: 50%;
-  padding: 0.5ex; }
+  .work_block .project article a {
+    font-family: 'Open Sans', sans-serif;
+    color: #0b3763; }
+  .work_block .project article .glyphicon {
+    color: white;
+    background-color: #0b3763;
+    border: 2px solid #0b3763;
+    border-radius: 50%;
+    padding: 0.5ex; }
 
 .my_work ul {
   margin: 3ex 0;
