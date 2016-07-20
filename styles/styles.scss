@@ -239,13 +239,14 @@ footer{
   color: white;
   padding: 5ex 2ex;
   text-align: center;
+  h3{
+    color: white;
+  }
+  .social_links li{
+    width: 10%;
+  }
 }
-footer h3{
-  color: white;
-}
-footer .social_links li{
-  width: 10%;
-}
+
 
 
 /** media queries **/
