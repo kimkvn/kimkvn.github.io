@@ -98,8 +98,6 @@ div.sidebar{
     width: 75%;
     border-radius: 50%;
   }
-
-
 }
 
 .social_links li{
@@ -119,7 +117,6 @@ div.sidebar{
     article{
       position: relative;
       background: #fff;
-      //min-height: 490px;
       border-radius: 5%;
       margin-top: 2ex;
       padding-top: 3ex;
@@ -158,17 +155,10 @@ div.sidebar{
       }
       section.screenShot{
         height: auto;
-        // &.filler{
-        //   opacity: 0;
-        // }
-      }
-      section.slideShow{
-        position: relative;
-        //height: 180px;
-        //overflow: hidden;
-      }
-      section.workText{
-
+        margin: 0 auto;
+        &.slideShow{
+          position: relative;
+        }
       }
       div.imgWrap{
         margin: 0;
@@ -266,12 +256,6 @@ footer{
   .social_links li{
     width: 15%;
   }
-  // .work_block .project article{
-  //   min-height: 540px;
-  //   section.slideShow{
-  //     height: 280px !important;
-  //   }
-  // }
 }
 @media (min-width: 768px){
   .profile .me{
@@ -287,6 +271,9 @@ footer{
 @media (min-width: 992px){
   .work_block .project article{
     min-height: 75ex;
+    .screenShot{
+              max-width: 43em;
+    }
   }
 }
 @media (min-width: 1200px){

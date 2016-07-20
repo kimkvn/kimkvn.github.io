@@ -116,9 +116,10 @@ div.sidebar {
     .work_block .project article .glyphicon {
       color: #00275E; }
     .work_block .project article section.screenShot {
-      height: auto; }
-    .work_block .project article section.slideShow {
-      position: relative; }
+      height: auto;
+      margin: 0 auto; }
+      .work_block .project article section.screenShot.slideShow {
+        position: relative; }
     .work_block .project article div.imgWrap {
       margin: 0;
       position: absolute;
@@ -189,7 +190,9 @@ footer {
     width: 5%; } }
 @media (min-width: 992px) {
   .work_block .project article {
-    min-height: 75ex; } }
+    min-height: 75ex; }
+    .work_block .project article .screenShot {
+      max-width: 43em; } }
 @media (min-width: 1200px) {
   .work_block .project article {
     min-height: 80ex; } }
