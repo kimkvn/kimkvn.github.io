@@ -81,7 +81,12 @@ div.sidebar {
   width: 15%;
   display: inline-block;
   margin: 5ex 0.5em; }
-
+.social_links a {
+  position: relative;
+  top: 0;
+  transition: 0.25s; }
+  .social_links a:hover {
+    top: -1.5ex; }
 .social_links img {
   max-width: 100%; }
 

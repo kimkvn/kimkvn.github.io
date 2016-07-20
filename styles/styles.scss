@@ -100,13 +100,29 @@ div.sidebar{
   }
 }
 
+.social_links{
+    li{
+      width: 15%;
+      display: inline-block;
+      margin: 5ex 0.5em;
+    }
+    a{
+      position: relative;
+      top: 0;
+      transition: 0.25s;
+      &:hover{
+        top: -1.5ex;
+      }
+    }
+    img{
+        max-width: 100%;
+    }
+}
 .social_links li{
-  width: 15%;
-  display: inline-block;
-  margin: 5ex 0.5em;
+
 }
 .social_links img{
-  max-width: 100%;
+
 }
 
 
