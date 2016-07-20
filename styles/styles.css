@@ -89,8 +89,8 @@ div.sidebar {
 .work_block {
   background: #FEB729; }
   .work_block .project article {
+    position: relative;
     background: #fff;
-    min-height: 490px;
     border-radius: 5%;
     margin-top: 2ex;
     padding-top: 3ex;
@@ -116,10 +116,8 @@ div.sidebar {
     .work_block .project article .glyphicon {
       color: #00275E; }
     .work_block .project article section.screenShot {
-      height: 180px; }
+      height: auto; }
     .work_block .project article section.slideShow {
-      position: relative; }
-    .work_block .project article section.workText {
       position: relative; }
     .work_block .project article div.imgWrap {
       margin: 0;
@@ -189,5 +187,11 @@ footer {
 
   footer .social_links li {
     width: 5%; } }
+@media (min-width: 992px) {
+  .work_block .project article {
+    min-height: 75ex; } }
+@media (min-width: 1200px) {
+  .work_block .project article {
+    min-height: 80ex; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -117,8 +117,9 @@ div.sidebar{
   background: $yellow;
   .project{
     article{
+      position: relative;
       background: #fff;
-      min-height: 490px;
+      //min-height: 490px;
       border-radius: 5%;
       margin-top: 2ex;
       padding-top: 3ex;
@@ -156,7 +157,10 @@ div.sidebar{
         color: $darkBlue;
       }
       section.screenShot{
-        height: 180px;
+        height: auto;
+        // &.filler{
+        //   opacity: 0;
+        // }
       }
       section.slideShow{
         position: relative;
@@ -164,12 +168,11 @@ div.sidebar{
         //overflow: hidden;
       }
       section.workText{
-        position: relative;
+
       }
       div.imgWrap{
         margin: 0;
         position: absolute;
-
         opacity: 0;
 
         &:nth-child(1){
@@ -282,7 +285,12 @@ footer{
   }
 }
 @media (min-width: 992px){
-  // .work_block .project article{
-  //   min-height: 510px;
-  // }
+  .work_block .project article{
+    min-height: 75ex;
+  }
+}
+@media (min-width: 1200px){
+  .work_block .project article{
+    min-height: 80ex;
+  }
 }
