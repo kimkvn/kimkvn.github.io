@@ -113,9 +113,9 @@ div.sidebar {
         .work_block .project article ul.work_buttons li a {
           color: #00275E;
           position: relative; }
-      .work_block .project article ul.work_buttons .spLinks {
+      .work_block .project article ul.work_buttons .exampleLinks {
         display: inline-block; }
-        .work_block .project article ul.work_buttons .spLinks li {
+        .work_block .project article ul.work_buttons .exampleLinks li {
           display: block;
           margin-bottom: 1ex; }
     .work_block .project article .glyphicon {
