@@ -35,9 +35,9 @@ a:hover {
   text-decoration: none;
   cursor: pointer; }
 
-.lineHover, a.email, .work_block .project article ul.work_buttons li a {
+.lineHover, a.email, a.resume, .work_block .project article ul.work_buttons li a {
   position: relative; }
-  .lineHover:before, a.email:before, .work_block .project article ul.work_buttons li a:before {
+  .lineHover:before, a.email:before, a.resume:before, .work_block .project article ul.work_buttons li a:before {
     content: "";
     position: absolute;
     background-color: #00275E;
@@ -48,14 +48,14 @@ a:hover {
     visibility: hidden;
     transform: scaleX(0);
     transition: 0.3s; }
-  .lineHover:hover:before, a.email:hover:before, .work_block .project article ul.work_buttons li a:hover:before {
+  .lineHover:hover:before, a.email:hover:before, a.resume:hover:before, .work_block .project article ul.work_buttons li a:hover:before {
     visibility: visible;
     transform: scaleX(1); }
 
-a.email {
+a.email, a.resume {
   color: #fff;
   position: relative; }
-  a.email:before {
+  a.email:before, a.resume:before {
     background-color: #fff; }
 
 /*----Header----*/

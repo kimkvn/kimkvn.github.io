@@ -65,9 +65,10 @@ a:hover{
   }
 }
 
-a.email{
+a.email, a.resume{
   color: #fff;
   position: relative;
+
   @extend .lineHover;
   &:before{
     background-color: #fff;
