@@ -40,11 +40,12 @@ img{
   font-size: 40%;
   vertical-align: middle;
 }
-a:hover{
-  text-decoration: none;
-  cursor: pointer;
+a{
+  &:hover, &:visited, &:active, &:focus{
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
-
 .lineHover{
   position: relative;
   &:before{
