@@ -125,6 +125,8 @@ div.sidebar {
       margin: 0 auto; }
       .work_block .project article section.screenShot.slideShow {
         position: relative; }
+      .work_block .project article section.screenShot #fb-off-trend-img {
+        max-width: 99%; }
 
 .my_work a {
   white-space: normal; }
