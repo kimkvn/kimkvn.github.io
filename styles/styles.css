@@ -96,7 +96,7 @@ div.sidebar {
   .work_block .project article {
     position: relative;
     background: #fff;
-    border-radius: 5%;
+    border-radius: 10px;
     margin-top: 2ex;
     padding-top: 3ex;
     padding-right: 5ex;
